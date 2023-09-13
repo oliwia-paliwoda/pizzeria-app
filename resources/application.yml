@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /konsola
+  datasource:
+    url: jdbc:h2:mem:test
+    username: oliwia
+    password: 1234
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
